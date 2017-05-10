@@ -30,7 +30,7 @@ module ActiveMerchant #:nodoc:
       self.test_url = 'https://apitest.authorize.net/xml/v1/request.api'
       self.live_url = 'https://api2.authorize.net/xml/v1/request.api'
       # JDW Custom Mods
-      self.ssl_version = :TLSv1
+      # self.ssl_version = :TLSv1
 
       AUTHORIZE_NET_CIM_NAMESPACE = 'AnetApi/xml/v1/schema/AnetApiSchema.xsd'
 
